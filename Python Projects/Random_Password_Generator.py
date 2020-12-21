@@ -1,3 +1,4 @@
+# Import relevant modules
 import random
 
 # All uppercase password
