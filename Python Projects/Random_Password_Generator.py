@@ -16,3 +16,13 @@ for i in range(5):
         j = chr(random.randint(65,90)).lower()
     password = str(password) + j + i
 print(password)
+
+# The upper and lowercase password can be simplified as follows:
+password = ""
+for i in range(5):
+    i = chr(random.randint(65, 90))
+    j = chr(random.randint(65, 90)).lower()
+    password = str(password) + i + j
+print(password)
+
+# This was ommited from the YouTube video but is a much nicer way of handling this problem! 
