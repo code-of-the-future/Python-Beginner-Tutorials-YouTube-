@@ -4,7 +4,7 @@ import random
 # This imports all the punctuation (i.e special characters) 
 from string import punctuation
 # Create a list with all of these special characters 
-special_chars = list(punctuation)  # List has 32 elements in (can determine this by 'print(len(special_chars))'
+special_chars = list(punctuation)  # List has 32 elements in (can determine this by 'print(len(special_chars))')
 
 # Set up the password generator as before
 password = ""  # Create an empty string
